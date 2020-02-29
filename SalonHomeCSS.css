@@ -1,0 +1,76 @@
+#title {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 700;
+    font-size: 35px;
+    color: purple;
+    font-style: 5px;
+    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
+    text-align: center;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#picture {
+    border: 2px solid purple;
+}
+
+/* Navigation Bar Styling */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    width: 395px;
+    font-size: 30px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgba(86, 0, 97, 0.63);
+  }
+
+  .active {
+      background-color: rgba(207, 18, 192, 0.555);
+  }
+
+  #subtitle {
+      color: darkorchid;
+      text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
+      font-size: 38px;
+  }
+
+  .text {
+      color: blueviolet;
+      text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black, 0.5px 0.5px 0 black;
+  }
+
+  .picture {
+      border: 3px solid darkviolet;
+  }
+
+  .nails {
+    display: inline-block;
+  }
+
+ 
